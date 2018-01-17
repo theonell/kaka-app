@@ -1,0 +1,21 @@
+.error{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.error span{
+  width: 40%;
+  padding: 4%;
+  margin-top: 20%;
+  margin-bottom: 10%;
+  border-radius: 4px;
+  background-color: yellow;
+}
+.error a{
+  width: 30%;
+  padding: 3% 0;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  background-image: url('../../images/login-bg.png');
+}

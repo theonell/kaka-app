@@ -1,0 +1,117 @@
+p {
+    margin: 0;
+}
+
+.comment-wrap {
+    width: 100%;
+}
+
+.comment-wrap header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('../../images/login-bg.png');
+    background-size: cover;
+    padding: 3% 0;
+}
+
+.comment-wrap header span:first-child {
+    width: 20px;
+    height: 20px;
+    background-image: url('../../images/back.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 6px;
+}
+
+.comment-wrap header span:nth-child(2) {
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.comment-wrap>div {
+    padding: 0 4%;
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-wrap>div>span {
+    border-bottom: 1px solid #ccc;
+    padding: 4% 0;
+}
+
+.comment-cnt {
+    padding: 4% 0;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.comment-cnt>img {
+    width: 10%;
+    height: 10%;
+    margin-right: 4%;
+}
+
+.comment-cnt>div>div {
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.comment-cnt>div>div i {
+    width: 20px;
+    height: 20px;
+    background-image: url('../../images/45.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.comment-cnt>div>div i.active {
+    background-image: url('../../images/76.png');
+}
+
+.comment-cnt>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-cnt>div>span {
+    background-color: #ccc;
+    padding: 4% 2%;
+    letter-spacing: -1px;
+    border-radius: 8px;
+    margin-top: 2%;
+}
+
+.comment-cnt>div>span i {
+    color: rgb(24, 177, 62);
+}
+
+.comment-wrap>div:nth-child(3) {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.comment-wrap>div:nth-child(3) i {
+    width: 30px;
+    height: 30px;
+    background-image: url('../../images/sound.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.comment-wrap>div:nth-child(3) input{
+  border: none;
+  font-size: 1.5em;
+  width: 90%;
+  height: 40px;
+  margin: 0 2%;
+}
+.comment-wrap>div:nth-child(3) i:last-child{
+  background-image: url('../../images/load-pic.png');
+}

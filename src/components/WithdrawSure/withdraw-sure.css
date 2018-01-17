@@ -1,0 +1,49 @@
+.withdraw-sure-wrap {
+  display: flex;
+  width: 100%;
+  height: 120vh;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(233, 228, 228, 0.5);
+}
+
+.withdraw-sure-wrap header {
+  width: 100%;
+  text-align: center;
+  background-image: url('../../images/login-bg.png');
+  background-size: cover;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 2% 0;
+}
+
+.withdraw-sure-wrap img {
+  width: 15%;
+  margin: 10% 0 2%;
+}
+
+.withdraw-sure-wrap div {
+  width: 74%;
+  display: flex;
+  padding: 2% 4%;
+  flex-direction: column;
+  border-radius: 4px;
+  background-color: #fff;
+  margin-top: 4%;
+}
+
+.withdraw-sure-wrap div span {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2;
+}
+.withdraw-sure-wrap a{
+  width: 74%;
+  background-image: url('../../images/login-bg.png');
+  padding: 3% 0;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 5%;
+  border-radius: 10px;
+}

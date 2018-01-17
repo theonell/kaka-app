@@ -1,0 +1,55 @@
+.personality-signature-wrap {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(235,235,235,0.8);
+}
+
+.personality-signature-wrap header {
+width: 100%;
+  padding: 3% 0;
+  display: flex;
+  align-items: center;
+  background-image: url('../../images/login-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.personality-signature-wrap header i {
+  width: 30px;
+  height: 30px;
+  margin-left: 6px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../../images/back.png');
+}
+
+.personality-signature-wrap header span {
+  flex-grow: 1;
+  text-align: center;
+  margin-right: 6px;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+.personality-signature-wrap textarea{
+  resize: none;
+  width: 90%;
+  height: 30vh;
+  border-radius: 4px;
+  border: none;
+  background: #fff;
+  margin-top: 5%;
+}
+.personality-signature-wrap>span{
+  width: 74%;
+  background-image: url('../../images/login-bg.png');
+  padding: 4% 0;
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+  border-radius: 10px;
+  margin-top: 30%;
+}

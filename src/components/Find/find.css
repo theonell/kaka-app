@@ -1,0 +1,88 @@
+.find-wrap{
+  width: 100%;
+  background-color: rgb(226, 220, 220);
+}
+.find-content{
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  background-color: #fff;
+  margin-top: 6%;
+}
+.find-content>img{
+  width: 8%;
+  height: 7%;
+  margin-top: -3%;
+}
+.find-content>div{
+  display: flex;
+  flex-direction: column;
+}
+.find-content>div>div{
+  display: flex;
+}
+.find-content .username{
+  display: flex;
+  justify-content: space-between;
+  color: rgb(127, 127, 192);
+}
+.find-content .username img{
+  width: 24%;
+}
+.find-content p{
+  font-size: 0.75em;
+}
+.find-content .find-pics{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.find-content .find-pics img{
+  width: 30%;
+}
+.find-more{
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.find-more span{
+  font-size: 0.75em;
+}
+.find-more div{
+  display: flex;
+  align-items: center;
+}
+.find-more>span{
+  width: 24%;
+}
+.find-more .position{
+  width: 60%;
+}
+.find-more .eye i{
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../../images/eye.png');
+}
+.find-more .position i{
+  width: 18px;
+  height: 18px;
+  background-image: url('../../images/position.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.find-more .like i{
+  width: 26px;
+  height: 26px;
+  background-image: url('../../images/like.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.find-more .comment i{
+  width: 34px;
+  height: 34px;
+  background-image: url('../../images/comment.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}

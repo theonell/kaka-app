@@ -1,0 +1,50 @@
+.user-about-wrap{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.user-about-wrap header{
+  padding: 3% 0;
+  display: flex;
+  align-items: center;
+  background-image: url('../../images/login-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.user-about-wrap header i{
+  width: 30px;
+  height: 30px;
+  margin-left: 6px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../../images/back.png');
+}
+.user-about-wrap header span{
+  flex-grow: 1;
+  text-align: center;
+  margin-right: 6px;
+  font-size: 1.5em;
+}
+.user-about-wrap div:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+}
+.user-about-wrap div:nth-child(2) img{
+  width: 30%;
+}
+.user-about-wrap p{
+  margin: 0;
+  margin-top: 5%;
+  margin-left: 4%;
+}
+.user-about-wrap p:nth-child(6){
+  margin-bottom: 2%;
+}
+.user-about-wrap>span{
+  width: 75%;
+  margin-left: 10%;
+  text-indent: 30px;
+}

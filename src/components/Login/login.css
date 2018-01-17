@@ -1,0 +1,102 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login img {
+    width: 30%;
+    margin: 10% 0;
+}
+
+.login .login-info {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    padding: 0 2%;
+    background: rgba(233, 228, 228, 0.5);
+}
+
+.login .login-info input {
+    width: 90%;
+    line-height: 2.25;
+    border: none;
+    border-bottom: 1px solid rgb(185, 173, 173);
+    outline: none;
+    background: none;
+    font-size: 1.5em;
+    background-image: url('../../images/user.png');
+    background-size: 10%;
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    text-indent: 18%;
+}
+
+.login .login-info input:last-child {
+    border-bottom: none;
+    background-image: url('../../images/pwd.png');
+    background-size: 8%;
+    background-position: 1% 50%;
+}
+
+.login .reset {
+    display: flex;
+    align-items: center;
+    line-height: 2.4;
+    margin-bottom: 10%;
+    margin-top: 2%;
+}
+
+.login>a:nth-child(4) {
+    width: 66%;
+    padding: 2% 0;
+    border-radius: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-image: url('../../images/login-bg.png');
+}
+
+.login .share {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login .share img {
+    width: 26%;
+}
+
+.login .share img:nth-child(2) {
+    width: 20%;
+}
+
+.login .other {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    color: rgb(236, 8, 8);
+    margin-top: 2%;
+}
+
+.login .other i {
+    margin-top: 3%;
+    width: 48%;
+    height: 1px;
+    background-color: rgb(241, 36, 46);
+}
+
+.login a:last-child {
+    background-color: #ccc;
+    width: 30%;
+    font-size: 1.25em;
+    line-height: 1.8;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 3%;
+    color: #fff;
+    text-decoration: none;
+}

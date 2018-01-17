@@ -1,0 +1,68 @@
+.issue-task-wrap {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  background: rgba(245, 245, 245, 0.9);
+}
+
+.issue-task-wrap header {
+  padding: 3% 0;
+  display: flex;
+  align-items: center;
+  background-image: url('../../images/login-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  margin-bottom: 3%;
+}
+
+.issue-task-wrap header i {
+  width: 30px;
+  height: 30px;
+  margin-left: 6px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../../images/back.png');
+}
+
+.issue-task-wrap header span {
+  flex-grow: 1;
+  text-align: center;
+  margin-right: 6px;
+  font-size: 1.5em;
+}
+.issue-task-wrap>div{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2%;
+  background-color: #fff;
+  margin: 2%;
+  border-radius: 4px;
+}
+.issue-task-wrap div p{
+  width: 100%;
+  height: 16vh;
+}
+.issue-task-wrap>div>div{
+  display: flex;
+  align-items: center;
+}
+.issue-task-wrap>div>div span:first-child{
+  width: 20%;
+}
+.issue-task-wrap>div>div img:nth-child(2){
+  width: 8%;
+}
+.issue-task-wrap>div>div span:nth-child(3){
+  width: 58%;
+  color: aqua;
+}
+.issue-task-wrap>div>div img:nth-child(4){
+  width: 10%;
+}
+.issue-task-wrap>div>div span:nth-child(5){
+  font-size: 2em;
+  color: red;
+}

@@ -1,0 +1,105 @@
+.account-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.account-wrap header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../../images/login-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 3% 3%;
+}
+
+.account-wrap header i {
+    width: 30px;
+    height: 30px;
+    background-image: url('../../images/back.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.account-wrap header i:last-child {
+    background-image: url('../../images/refresh.png');
+}
+
+.account-wrap header span {
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.account-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4% 2%;
+    border-bottom: 1px solid #ccc;
+}
+
+.account-content img {
+    width: 6%;
+}
+
+.account-content span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account-content span i {
+    line-height: 2;
+}
+
+.account-content span i:last-child {
+    font-size: 1.5em;
+}
+
+.account-content span:last-child {
+    width: 50%;
+    padding-left: 15%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.account-content span:last-child a {
+    width: 50%;
+    background-color: red;
+    line-height: 2.5;
+    color: #fff;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.account-wrap>img {
+    width: 40%;
+    align-self: center;
+    margin-top: 18%;
+    margin-bottom: 22%;
+}
+
+.account-wrap>div:nth-child(5) {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.account-wrap>div:nth-child(5) span {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5em;
+}
+
+.account-wrap>div:nth-child(5) span i:first-child{
+  width: 50px;
+  height: 50px;
+  background-image: url('../../images/35.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.account-wrap>div:nth-child(5) span:last-child i:first-child{
+  background-image: url('../../images/36.png');
+}

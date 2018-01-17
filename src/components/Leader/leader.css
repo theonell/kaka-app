@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.leader{
+  width: 400vw;
+  display: flex;
+  flex-shrink: 0;
+  transition: all 1s;
+}
+.show{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.leader img{
+  width: 100vw;
+  height: 100vh;
+}
+.go{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #333;
+}
+.go img{
+  width: 36%;
+  margin-top: 20%;
+  height: 20%;
+}
+.go>span{
+  font-size: 2.5em;
+}
+.go p{
+  font-size: 1.5em;
+  margin: 0;
+  margin-top: 10%;
+}
+.go a{
+  width: 40%;
+  margin-top: 30%;
+  padding: 6px 0;
+  font-size: 1.5em;
+  border-radius: 10px;
+  background-color: rgb(240, 20, 20);
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+}

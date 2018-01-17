@@ -1,0 +1,92 @@
+.dialog-box-wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dialog-box-wrap header {
+  padding: 3% 0;
+  display: flex;
+  align-items: center;
+  background-image: url('../../images/login-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.dialog-box-wrap header i {
+  width: 30px;
+  height: 30px;
+  margin-left: 6px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../../images/back.png');
+}
+
+.dialog-box-wrap header span {
+  flex-grow: 1;
+  text-align: center;
+  margin-right: 6px;
+  font-size: 1.5em;
+}
+.dialog-box-wrap>div:nth-child(2){
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.dialog-box-wrap>div:nth-child(2) span{
+  display: flex;
+  align-items: center;
+}
+.dialog-box-wrap>div:nth-child(2) span i{
+  width: 20%;
+  background-image: url('../../images/dialog1.jpeg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.dialog-box-wrap>div:nth-child(2) span{
+  width: 100%;
+  text-align: center;
+  margin: 4%;
+  color: #333;
+}
+.dialog-box-wrap>div:nth-child(2) span:nth-child(1){
+  justify-content: center;
+  margin-bottom: 6%;
+  margin-top: 2%;
+}
+.dialog-box-wrap>div:nth-child(2) span:nth-child(2){
+  display: flex;
+  justify-content: flex-end;
+}
+.dialog-box-wrap>div:nth-child(2) span:nth-child(3) i{
+  background-image: url('../../images/dialog2.jpeg');
+}
+
+.dialog-box-wrap>div:nth-child(2) span img{
+  width: 10%;
+}
+.dialog-box-wrap>div:nth-child(3){
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  background-color: red;
+  padding: 2%;
+}
+.dialog-box-wrap>div:nth-child(3) i{
+  width: 30px;
+  height: 30px;
+  background-image: url('../../images/sound.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.dialog-box-wrap>div:nth-child(3) input{
+  flex-grow: 1;
+  margin: 0 2%;
+}
+.dialog-box-wrap>div:nth-child(3) span{
+  color: #fff;
+  font-size: 1.25em;
+}

@@ -1,0 +1,116 @@
+.my-card-wrap {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-card-wrap header {
+    width: 100vw;
+    padding: 3% 0;
+    display: flex;
+    align-items: center;
+    background-image: url('../../images/login-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.my-card-wrap header i {
+    width: 30px;
+    height: 30px;
+    margin-left: 6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../images/back.png');
+}
+
+.my-card-wrap header span {
+    flex-grow: 1;
+    text-align: center;
+    margin-right: 6px;
+    font-size: 1.5em;
+}
+
+.my-card-wrap div:nth-child(2) {
+    position: relative;
+}
+
+.my-card-wrap div:nth-child(2)>img {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+}
+
+.my-card-wrap div:nth-child(2)>div {
+    position: absolute;
+    display: flex;
+    color: rgba(248, 242, 242, 0.7);
+    flex-direction: column;
+    bottom: 0;
+    right: 0;
+}
+
+.my-card-wrap>div:nth-child(2)>div:nth-child(3) {
+    right: 50%;
+    flex-direction: row;
+}
+
+.my-card-wrap>div:nth-child(2)>div:nth-child(3) i {
+    width: 20px;
+    height: 20px;
+    background-image: url('../../images/45.png');
+    background-size: contain;
+}
+
+.my-card-wrap>div:nth-child(3) {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.my-card-wrap>div:nth-child(3) span {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-card-wrap>div:nth-child(3) span:first-child {
+    /* margin-left: 5%; */
+    width: 30%;
+    align-items: center;
+}
+
+.my-card-wrap>div:nth-child(3)>span img {
+    width: 55%;
+    margin-top: -38%;
+    margin-bottom: 38%;
+}
+
+.my-card-wrap>div:nth-child(3)>span:nth-child(2) {
+    width: 50%;
+    margin-top: -17%;
+    font-size: 0.75em;
+}
+
+.my-card-wrap>div:nth-child(3)>span:nth-child(2) i:first-child {
+    color: #ccc;
+}
+
+.my-card-wrap>div:nth-child(3)>i{
+    width: 80px;
+    height: 80px;
+    margin-top: 10%;;
+    background-image: url('../../images/sys.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#container {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+}
+#container img{
+    width: 20px;
+    height: 20px;
+}

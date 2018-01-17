@@ -1,0 +1,90 @@
+.withdraw-wrap {
+    width: 100%;
+    height: 100vh;
+    background: rgba(233, 228, 228, 0.5);
+}
+
+.withdraw-wrap header {
+    display: flex;
+    background-image: url('../../images/login-bg.png');
+    background-size: cover;
+    padding: 3%;
+    font-size: 1.5em;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.withdraw-wrap header span:first-child {
+    font-size: 0.75em;
+}
+
+.withdraw-wrap>div {
+    display: flex;
+    flex-direction: column;
+    margin: 6% 3% 0;
+    background-color: #fff;
+    padding: 2% 3%;
+    border-radius: 4px;
+}
+
+.withdraw-wrap>div>div {
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.withdraw-wrap>div>div>span:first-child {
+    width: 30%;
+}
+
+.withdraw-wrap>div>div:first-child span i:first-child {
+    color: rgb(55, 207, 182);
+}
+
+.withdraw-wrap>div>div>span:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.withdraw-wrap>div>div:nth-child(3)>span:last-child {
+    flex-direction: row;
+    padding: 1% 6%;
+    border-bottom: 1px solid #ccc;
+    margin-top: 2%;
+}
+
+.withdraw-wrap>div>div:nth-child(3) {
+    flex-direction: column;
+}
+
+.withdraw-wrap>div>div:nth-child(3) i {
+    font-size: 1.5em;
+}
+
+.withdraw-wrap>div>div:nth-child(3) input {
+    text-indent: 10px;
+    border: 0;
+    outline: none;
+    font-size: 1.5em;
+}
+
+.withdraw-wrap>div>p {
+    color: #ccc;
+}
+
+.withdraw-wrap>div>p span {
+    color: rgb(55, 207, 182);
+}
+.withdraw-wrap>div>a{
+  font-size: 1.5em;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  line-height: 2.25;
+  margin-top: 10%;
+  background-image: url('../../images/login-bg.png');
+}
+.withdraw-wrap>div>span{
+  text-align: center;
+  color: #ccc;
+  margin: 5% 0;
+}

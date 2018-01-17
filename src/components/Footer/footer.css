@@ -1,0 +1,60 @@
+footer{
+  width: 100vw;
+  background-color: rgba(17, 17, 17, 1);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 2% 0;
+}
+footer>ul{
+  width: 100%;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-around;
+}
+footer>ul>li{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* align-items: center; */
+  color: #ccc;
+}
+footer>ul>li span{
+  margin-top: 20%;
+}
+footer>ul>li i{
+  width: 100%;
+  height: 30px;
+  background-image: url('../../images/home2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+footer>ul>li i.active{
+  background-image: url('../../images/home1.png');
+}
+footer>ul>li:nth-child(2) i{
+  background-image: url('../../images/find1.png');
+}
+footer>ul>li:nth-child(2) i.active{
+  background-image: url('../../images/find2.png');
+}
+footer>ul>li:nth-child(3) i{
+  background-image: url('../../images/issue1.png');
+}
+footer>ul>li:nth-child(3) i.active{
+  background-image: url('../../images/issue2.png');
+}
+footer>ul>li:nth-child(4) i{
+  background-image: url('../../images/message1.png');
+}
+footer>ul>li:nth-child(4) i.active{
+  background-image: url('../../images/message2.png');
+}
+footer>ul>li:nth-child(5) i{
+  background-image: url('../../images/wd1.png');
+}
+footer>ul>li:nth-child(5) i.active{
+  background-image: url('../../images/wd2.png');
+}

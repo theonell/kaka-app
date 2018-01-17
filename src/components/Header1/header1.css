@@ -1,0 +1,18 @@
+.header1{
+  width: 100%;
+}
+.header1 header{
+  width: 100%;
+  padding: 1% 0;
+  display: flex;
+  justify-content: center;
+  background-image: url('../../images/login-bg.png');
+  background-size: cover;
+}
+.header1 header i{
+  width: 30%;
+  height: 40px;
+  background-image: url('../../images/kaka.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}

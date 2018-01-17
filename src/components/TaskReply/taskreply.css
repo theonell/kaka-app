@@ -1,0 +1,69 @@
+.reply-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;  
+    background-color: rgb(245, 245, 245);
+
+}
+.reply-wrap>header{
+    padding: 3% 0;
+    background-image: url('../../images/login-bg.png');
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+}
+.reply-wrap>header>a{
+    color: #fff;
+    margin-left: 4%;
+    font-size: 1em;
+}
+.reply-wrap>header>span:nth-child(2){
+    margin-right: 4%;
+    font-size: 1.5em;
+}
+.reply-wrap textarea{
+    width: 100%;
+    height: 240px;
+    font-size: 1em;
+    outline: none;
+    border: none;
+    background: #fff;
+    margin-top: 4%;
+    text-indent: 4%;
+    resize: none;
+}
+.reply-wrap>div:nth-child(3){
+    display: flex;
+    padding: 4% 0;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    margin-top: 4%;
+}
+.reply-wrap>div:nth-child(3) span{
+    display: flex;
+}
+.reply-wrap>div:nth-child(3) span i:first-child{
+    width: 20px;
+    height: 20px;
+    background-image: url('../../images/position.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.reply-wrap>div:nth-child(4){
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+  }
+  .reply-wrap>div:nth-child(4) a{
+    width: 80%;
+    color: #fff;
+    padding: 4% 0;
+    text-align: center;
+    border-radius: 10px;
+    background-image: url('../../images/login-bg.png');
+    margin-top: 30%;
+  }
+  

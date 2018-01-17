@@ -1,0 +1,77 @@
+.update-user-info-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.update-user-info-wrap header {
+  width: 100%;
+    padding: 3% 0;
+    display: flex;
+    align-items: center;
+    background-image: url('../../images/login-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.update-user-info-wrap header i {
+    width: 30px;
+    height: 30px;
+    margin-left: 6px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../images/back.png');
+}
+
+.update-user-info-wrap header span {
+    flex-grow: 1;
+    text-align: center;
+    margin-right: 6px;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+.update-user-info-wrap div:nth-child(2){
+  padding: 5%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url('../../images/user-bg.png');
+}
+.update-user-info-wrap div:nth-child(2) img{
+  width: 30%;
+}
+.update-user-info-wrap div:nth-child(2) span{
+  border: 1px solid #ccc;
+  color: #ccc;
+  text-align: center;
+  width: 32%;
+  border-radius: 4px;
+  margin-top: 2%;
+  padding: 1% 0;
+}
+.update-user-info-wrap div:nth-child(3){
+  width: 100%;
+  display: flex;
+  padding: 0 4%;
+  flex-direction: column;
+}
+.update-user-info-wrap div:nth-child(3) span{
+  display: flex;
+  font-size: 1.2em;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 4% 0;
+}
+.update-user-info-wrap div:nth-child(3) span i:nth-child(3){
+  width: 40%;
+  text-align: right;
+}
+.update-user-info-wrap div:nth-child(3) span i:nth-child(2){
+  width: 40%;
+  text-align: left;
+}
+.update-user-info-wrap div:nth-child(3) span i:nth-child(1){
+  width: 20%;
+} 

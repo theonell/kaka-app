@@ -1,0 +1,38 @@
+.pay-succeed-wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.pay-succeed-wrap header{
+  width: 100%;
+  font-size: 1.5em;
+  padding: 4% 0;
+  background-image: url('../../images/login-bg.png');
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+.pay-succeed-wrap img{
+  width: 30%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.pay-succeed-wrap span:nth-child(3){
+  font-size: 1.5em;
+  color: black;
+}
+.pay-succeed-wrap span:nth-child(4){
+  line-height: 2;
+  font-size: 1em;
+  color: #ccc;
+}
+.pay-succeed-wrap a{
+  width: 74%;
+  background-image: url('../../images/login-bg.png');
+  text-align: center;
+  color: #fff;
+  padding: 4% 0;
+  margin-top: 30%;
+  border-radius: 10px;
+}
