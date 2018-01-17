@@ -63,10 +63,6 @@ class Home extends Component {
     sessionStorage.view = false
   }
 
-  handleClick = t => {
-    this.props.history.push('/details', t)
-  }
-
   handleComment = () => {
     this.props.history.push('/comment')
   }
@@ -96,31 +92,33 @@ class Home extends Component {
             {
               data.map(item => {
                 return (
-                  <div key={item.id} className='home-main-content' onClick={() => this.handleClick(item)}>
-                    <span>{item.content}</span>
-                    <div>
-                      <img src={item.src} alt='加载失败' />
+                <Link to={{ pathname: `/details/${item.id}`, state: item }} key={item.id}>
+                    <div className="home-main-content">
+                      <span>{item.content}</span>
                       <div>
-                        <div className='home-user'>
-                          <span className='home-username'>
-                            <i>{item.username}</i>
-                            <i></i>
-                          </span>
-                          <span className='home-user-score'>
-                            <i></i>
-                            <span>{item.score}</span>
-                          </span>
-                        </div>
-                        <div className='home-position'>
-                          <div>
-                            <span></span>
-                            <span>{item.position}</span>
+                        <img src={item.src} alt="加载失败" />
+                        <div>
+                          <div className="home-user">
+                            <span className="home-username">
+                              <i>{item.username}</i>
+                              <i />
+                            </span>
+                            <span className="home-user-score">
+                              <i />
+                              <span>{item.score}</span>
+                            </span>
                           </div>
-                          <span>{item.time}</span>
+                          <div className="home-position">
+                            <div>
+                              <span />
+                              <span>{item.position}</span>
+                            </div>
+                            <span>{item.time}</span>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </Link>
                 )
               })
             }

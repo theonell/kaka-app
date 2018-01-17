@@ -72,15 +72,23 @@
     justify-content: space-around;
 }
 
-.home-main-content {
+.home-contain>a {
+    display: flex;
+    justify-content: space-around;
     width: 48%;
+    color: #333;
+}
+
+.home-main-content {
     display: flex;
     flex-direction: column;
     background-color: #fff;
 }
-.home-main-content>span{
+
+.home-main-content>span {
     height: 50%;
 }
+
 .home-main-content>div {
     display: flex;
     align-items: center;
@@ -89,97 +97,117 @@
 .home-main-content>div img {
     width: 20%;
 }
-.home-main-content .home-user{
+
+.home-main-content .home-user {
     display: flex;
     justify-content: space-between;
 }
-.home-main-content .home-username{
+
+.home-main-content .home-username {
     display: flex;
 }
-.home-main-content .home-username i{
+
+.home-main-content .home-username i {
     font-style: normal;
 }
-.home-main-content .home-username i:last-child{
+
+.home-main-content .home-username i:last-child {
     width: 20px;
     height: 20px;
     background-image: url('../../images/45.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
-.home-main-content:nth-child(2) .home-username i:last-child{
+
+.home-main-content:nth-child(2) .home-username i:last-child {
     background-image: url('../../images/76.png');
 }
-.home-main-content .home-user-score{
+
+.home-main-content .home-user-score {
     color: red;
     display: flex;
 }
-.home-main-content .home-user-score i:first-child{
+
+.home-main-content .home-user-score i:first-child {
     width: 20px;
     height: 20px;
     background-image: url('../../images/score.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
-.home-main-content .home-position{
+
+.home-main-content .home-position {
     display: flex;
     flex-direction: column;
 }
-.home-main-content .home-position div{
+
+.home-main-content .home-position div {
     display: flex;
     align-items: center;
     font-size: 0.75em;
 }
-.home-main-content .home-position div span:first-child{
+
+.home-main-content .home-position div span:first-child {
     width: 16px;
     height: 16px;
     background-image: url('../../images/position.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
-.home-today{
+
+.home-today {
     background-color: #fff;
     display: flex;
     flex-direction: column;
 }
-.home-pic{
+
+.home-pic {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 2%;
 }
-.home-pic img{
+
+.home-pic img {
     width: 31%;
 }
-.home-today p{
+
+.home-today p {
     font-size: 0.75em;
     color: rgb(134, 122, 122);
     word-spacing: -1px;
     margin: 0;
 }
-.home-today>span{
+
+.home-today>span {
     font-size: 0.75em;
     color: rgb(153, 144, 144);
 }
-.home-today .home-comment{
+
+.home-today .home-comment {
     width: 60%;
     display: flex;
     justify-content: space-between;
 }
-.home-comment div{
+
+.home-comment div {
     display: flex;
     align-items: center;
 }
-.home-comment div i{
+
+.home-comment div i {
     width: 30px;
     height: 30px;
     background-image: url('../../images/eye.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
-.home-comment div:nth-child(2) i{
+
+.home-comment div:nth-child(2) i {
     background-image: url('../../images/like.png');
 }
-.home-comment div:last-child i{
+
+.home-comment div:last-child i {
     width: 35px;
     height: 35px;
     background-image: url('../../images/comment.png');

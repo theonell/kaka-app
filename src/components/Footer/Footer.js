@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { withRouter } from 'react-router-dom'
+import { withRouter, Link } from 'react-router-dom'
 import './footer.css'
 
 class Footer extends Component {
@@ -32,10 +32,6 @@ class Footer extends Component {
       }
     ]
   }
-
-  handleClick = (item, id) => {
-    this.props.history.push(`/${item.path}`, id)
-  }
   render() {
     const { data } = this.state
     const { num } = this.props
@@ -46,10 +42,12 @@ class Footer extends Component {
           {
             data.map(item => {
               return (
-                <li onClick={() => this.handleClick(item, item.id)} key={item.id}>
-                  <i className={num === item.id ? 'active' : ''}></i>
-                  <span>{item.text}</span>
-                </li>
+                <Link to={{ pathname:`/${item.path}`,state:item.id }}  key={item.id}>
+                  <li>
+                    <i className={num === item.id ? 'active' : ''}></i>
+                    <span>{item.text}</span>
+                  </li>
+                </Link>
               )
             })
           }

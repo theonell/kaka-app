@@ -34,7 +34,7 @@ class TaskDetails extends Component {
   }
   render() {
     const data = this.props.location.state
-    
+
     return (
       <div className='task-details-wrap' id='task'>
         <header>
@@ -44,7 +44,7 @@ class TaskDetails extends Component {
         </header>
         <div className='task-details-content'>
           <div>
-            <img src={data.src} alt=""/>
+            <img src={data.src} alt="加载失败"/>
             <span>
               <i>{data.username}</i>
               <i></i>

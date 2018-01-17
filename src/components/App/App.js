@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { HashRouter as Router, Route } from 'react-router-dom'
 import './app.css'
 import Leader from '../Leader/Leader'
 import Home from '../Home/Home'
@@ -43,7 +43,7 @@ class App extends Component {
           <Route path='/find' component={Find}></Route>
           <Route path='/message' exact component={Message}></Route>
           <Route path='/message/system' component={System}></Route>
-          <Route path='/details' component={TaskDetails}></Route>
+          <Route path='/details/:id' component={TaskDetails}></Route>
           <Route path='/reply' component={TaskReply}></Route>
           <Route path='/comment' component={CommentDetails}></Route>
           <Route path='/user' exact component={User}></Route>
@@ -67,7 +67,7 @@ class App extends Component {
           <Route path='/error' component={Error}></Route>
           <Route path='/user/account/question' component={Question}></Route>
           <Route path='/message/dialog-box' component={DialogBox}></Route>
-          
+
         </div>
       </Router>
     )
